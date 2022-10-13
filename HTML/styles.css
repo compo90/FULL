@@ -1,0 +1,222 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.majeur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.majeur div{
+    width: 5%;
+    height: 20px;
+    
+}
+
+.box1{
+    order: 2;
+    flex-basis: 40%;
+   
+}
+.box2{
+    order: 1;
+}
+.box3{
+    order: 3;
+}
+.box4{
+    order: 4;
+    flex-basis: 20%;
+}
+.presidents{
+    background-image: url(guinee/presidents.jfif);
+    width:225px;
+    height: 225px;
+    animation-name: presi;
+    animation-duration: 100s;
+    animation-delay: 3s;
+    
+    
+}
+
+
+
+@keyframes presi{
+    0%{
+        background-image: url(guinee/sekou.jfif);
+    }
+    16%{
+        background-image: url(guinee/conte.jfif);
+    }
+    32%{
+        background-image: url(guinee/dadis.jfif);
+    }
+    48%{
+        background-image: url(guinee/konate.jfif);
+    }
+    64%{
+        background-image: url(guinee/alpha.jpg);
+        
+    }    
+    80%{
+        background-image: url(guinee/doumbouya.jfif);
+    }    
+}
+
+
+.animation{
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    float: right;
+    animation-name: changer;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    
+}
+@keyframes changer{
+    0%{
+        background-color:black;
+    }
+
+    100%{
+        background-color: aqua;
+    }
+}
+
+
+button:hover{
+ background-image: url(image1.jpg);
+
+}
+
+.transition{
+    background-image: url(image1.jpg);
+    width: 800px;
+    height: 499px;
+    transition: all 1s ease-in-out 2s;   
+}
+
+.transition:hover{
+    background-image: url(senegindia.jpg);
+    width: 1024px;
+    height: 1024px;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+.carre{
+    background-color: burlywood;
+    color: blue;
+    width: 200px;
+    height: 200px;
+    border: solid brown;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+
+img{
+    width: 10%;
+    display: inline;
+    float: right;
+    clear: both;
+   
+}
+
+
+
+@font-face {
+    font-family:margin;
+   src: url(font/Margin\ DEMO.otf);
+}
+.recettes{
+    font-family: margin;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+    text-transform: uppercase; 
+}
+
+.condiments ul li a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+
+.condiments ul li a:visited{
+    color: black;
+}
+
+.condiments ul li a:hover{
+    color: blue;
+}
+
+.div1{
+    width: 400px;
+    height: 150px;
+    background-color: orange;
+    overflow: scroll;
+    padding: 2%;
+    
+    
+}
+
+.div2{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    overflow: auto;
+    padding: 2%;
+}
+
+.tt{
+    clear: both;
+    
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 5%;
+    
+}
+
+.menu ul li a:visited{
+    
+    color: blue;
+
+    
+}
+.menu ul li a:hover{
+    color: red;
+}
+
+
+.conteneur{
+    position: relative;
+    background-color: green;
+    width: 450px;
+    height: 250px;
+
+}
+
+.contenu{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    width: 200px;
+    height: 100px;
+}
+
+
