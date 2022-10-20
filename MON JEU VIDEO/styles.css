@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "jungle";
+  src: url("dancing_jungle/DANCING JUNGLE.ttf");
+}
+
+@font-face {
+  font-family: Sch;
+  src: url("rick_font/schw.ttf");
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background-color: black;
+}
+
+* {
+  position: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sch;
+}
+
+.score {
+  color: deepskyblue;
+  margin-top: 50px;
+  font-size: 80px;
+  padding: 0 3rem;
+  border-radius: 1rem;
+}
+
+#morty-play:hover {
+  opacity: 05;
+}
+.play-img a {
+  margin-right: 20px;
+}
+.helper a {
+  clear: both;
+  float: right;
+  display: block;
+  margin-top: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: deepskyblue;
+}
+.helper a:hover {
+  color: green;
+}
